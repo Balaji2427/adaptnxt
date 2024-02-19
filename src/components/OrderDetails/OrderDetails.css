@@ -1,0 +1,118 @@
+.order-btn {
+  border: 1px solid #ffffff;
+  padding: 7px;
+  margin-top: 8px;
+  margin-left: -640px;
+  width: 80px;
+  text-align: center;
+  color: #3eb2f9;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-detail-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pending {
+  color: #3eb2f9 !important;
+  border-bottom: 3px solid #3eb2f9;
+}
+
+.action-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: none;
+  margin-top: 18px;
+  margin-left: -80px;
+}
+.action-text {
+  padding: 5px 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #000000;
+}
+
+.detail-container {
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 20px;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  background-color: none;
+}
+.btn-detail {
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  font-size: 14px;
+  padding: 7px 16px;
+  background-color: #ffffff;
+  margin-right: 11px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image-size {
+  height: 27px;
+  width: 27px;
+}
+.table-container {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.table-row {
+  text-align: center;
+  width: 100%;
+}
+.table-start {
+  height: 50px;
+  background-color: #ebebeb;
+}
+th {
+  margin-top: 10px;
+  font-size: 14px;
+}
+td {
+  font-size: 13px;
+  border-bottom: 1px solid #ebebeb;
+}
+.plus-size {
+  width: 70px;
+}
+.btn-refresh {
+  border: 0;
+  border-radius: 3px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 7px 16px;
+  background-color: #3eb2f9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btn-left {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
